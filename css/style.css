@@ -48,7 +48,8 @@ body {
 /* Media query */
 @media (min-width: 768px) {
   .container {
-    height: 25vh;
+    height: 24vh;
+    margin-top: 38vh;
   }
 
   .container > #txtColorName {
@@ -64,7 +65,6 @@ body {
   .container {
     width: 20vw;
     height: 20vh;
-    margin: auto;
     margin-top: 30vh;
   }
 
