@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #ababab;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+
+  width: 50vw;
+  height: 15vh;
+  margin: auto;
+  margin-top: 3rem;
+
+  background-color: #fff;
+  border-radius: 1.25rem;
+}
+
+.container > #txtColorName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.container > #btnRandom {
+  margin-top: 8px;
+  padding: 8px;
+
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
