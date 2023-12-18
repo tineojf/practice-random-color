@@ -58,6 +58,7 @@ body {
 
   .container > #btnRandom {
     font-size: 1rem;
+    margin-top: 12px;
   }
 }
 
